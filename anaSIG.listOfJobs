@@ -1,0 +1,41 @@
+
+
+python ./tardir/THBanalyzer.py -s THBWp1500Tp800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Tp1000   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Tp1300   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Tp1000   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Tp1300   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Tp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Tp1300   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Tp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Tp1800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Tp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Tp1800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Tp2100   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Tp1800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Tp2100   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Tp2500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Tp2100   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Tp2500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Tp3000   RMODS -g on
+
+python ./tardir/THBanalyzer.py -s THBWp1500Bp800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Bp1000   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Bp1300   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Bp1000   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Bp1300   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Bp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Bp1300   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Bp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Bp1800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Bp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Bp1800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Bp2100   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Bp1800   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Bp2100   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Bp2500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Bp2100   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Bp2500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Bp3000   RMODS -g on
+
+

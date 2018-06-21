@@ -1,0 +1,141 @@
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 1 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 2 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 3 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 4 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 5 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 6 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 7 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 8 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 9 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 10 -j 10  -g on
+
+
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 1 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 2 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 3 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 4 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 5 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 6 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 7 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 8 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 9 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 10 -j 10  -g on
+
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 1 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 2 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 3 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 4 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 5 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 6 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 7 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 8 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 9 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 10 -j 10  -g on
+
+
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 1 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 2 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 3 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 4 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 5 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 6 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 7 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 8 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 9 -j 10  -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 10 -j 10  -g on
+
+
+python ./tardir/THBanalyzer.py -s THBWp1500Tp800   -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Tp1000   -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Tp1300   -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Tp1000   -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Tp1300   -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Tp1500   -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Tp1300   -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Tp1500   -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Tp1800   -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Tp1500   -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Tp1800   -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Tp2100   -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Tp1800   -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Tp2100   -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Tp2500   -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Tp2100   -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Tp2500   -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Tp3000   -g on
+
+python ./tardir/THBanalyzer.py -s THBWp1500Bp800   -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Bp1000   -g on
+python ./tardir/THBanalyzer.py -s THBWp1500Bp1300   -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Bp1000   -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Bp1300   -g on
+python ./tardir/THBanalyzer.py -s THBWp2000Bp1500   -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Bp1300   -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Bp1500   -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Bp1800   -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Bp1500   -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Bp1800   -g on
+python ./tardir/THBanalyzer.py -s THBWp3000Bp2100   -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Bp1800   -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Bp2100   -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Bp2500   -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Bp2100   -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Bp2500   -g on
+python ./tardir/THBanalyzer.py -s THBWp4000Bp3000   -g on
+
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 1 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 2 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 3 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 4 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 5 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 6 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 7 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 8 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 9 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt700 -n 10 -j 10   -g on
+
+
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 1 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 2 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 3 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 4 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 5 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 6 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 7 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 8 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 9 -j 10   -g on
+python ./tardir/THBanalyzer.py -s ttbar_mtt1000 -n 10 -j 10   -g on
+
+
+python ./tardir/THBanalyzer.py -s data -n 1 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 2 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 3 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 4 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 5 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 6 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 7 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 8 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 9 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 10 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 11 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 12 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 13 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 14 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 15 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 16 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 17 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 18 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 19 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 20 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 21 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 22 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 23 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 24 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 25 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 26 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 27 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 28 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 29 -j 30   -g on
+python ./tardir/THBanalyzer.py -s data -n 30 -j 30   -g on
+
+

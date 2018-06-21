@@ -1,0 +1,13 @@
+
+
+
+python ./tardir/THBanalyzer.py -s THBWp1500Tp1000   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Tp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Tp2100   RMODS -g on
+
+
+
+python ./tardir/THBanalyzer.py -s THBWp1500Bp1000   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp2500Bp1500   RMODS -g on
+python ./tardir/THBanalyzer.py -s THBWp3500Bp2100   RMODS -g on
+

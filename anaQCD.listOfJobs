@@ -1,0 +1,36 @@
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 1 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 2 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 3 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 4 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 5 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 6 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 7 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 8 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 9 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1000 -n 10 -j 10  RMODS -g on
+
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 1 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 2 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 3 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 4 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 5 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 6 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 7 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 8 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 9 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT1500 -n 10 -j 10  RMODS -g on
+
+
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 1 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 2 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 3 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 4 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 5 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 6 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 7 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 8 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 9 -j 10  RMODS -g on
+python ./tardir/THBanalyzer.py -s QCDHT2000 -n 10 -j 10  RMODS -g on
+
+
+

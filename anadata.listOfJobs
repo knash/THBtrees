@@ -1,0 +1,32 @@
+python ./tardir/THBanalyzer.py -s data -n 1 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 2 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 3 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 4 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 5 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 6 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 7 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 8 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 9 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 10 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 11 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 12 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 13 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 14 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 15 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 16 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 17 -j 30   RMODS -g on 
+python ./tardir/THBanalyzer.py -s data -n 18 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 19 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 20 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 21 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 22 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 23 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 24 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 25 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 26 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 27 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 28 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 29 -j 30   RMODS -g on
+python ./tardir/THBanalyzer.py -s data -n 30 -j 30   RMODS -g on
+
+
