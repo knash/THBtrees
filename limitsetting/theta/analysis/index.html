@@ -1,0 +1,184 @@
+<?xml version="1.0" ?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>theta-auto Report</title>
+    <script type="text/javascript" src="js/prototype.js"></script>
+    <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <style type="text/css">
+    body {margin: 30px; font-family: Verdana, Arial, sans-serif; font-size: 12px; background:#eee;}
+    h1, h2, h3 { padding: 0.2ex; padding-left:.8ex;}
+    h1 {font-size: 150%%; background: #d44;}
+    h2 {font-size: 110%%; background: #f88; padding-left:1.3ex;}
+    h3 {font-size: 100%%; background: #aaa; padding-left:1.3ex;}
+    .inner {padding-left: 3ex;}
+    a img{ border: none;}
+    p {margin:0 0 0 0; margin-top: 1.3ex;}
+    ul {margin:0 0 0 0;}
+    </style>
+    </head><body>
+    <p>Hint: click on top-level headers to toggle visibility of that section.</p>
+    <h1 onclick=$('div1').toggle()>1. General Model Info</h1><div class="inner" id="div1">
+<p>Observables (xmin, xmax, nbins):</p>
+<ul>
+<li>mthb_h1t1b1 (500, 8000, 16)</li>
+</ul>
+<p>Background processes:</p>
+<ul>
+<li>qcd</li>
+<li>ttbar</li>
+</ul>
+<p>Signal processes:</p><ul>
+<li>wp1500</li>
+<li>wp2000</li>
+<li>wp2500</li>
+<li>wp3000</li>
+<li>wp3500</li>
+<li>wp4000</li>
+</ul>
+<p>Nuisance parameters (includes only those which apply to the background-only model):</p>
+<ul>
+<li>B (morph only)</li>
+<li>Bmis (morph only)</li>
+<li>Fit (morph only)</li>
+<li>FitM (morph only)</li>
+<li>Fitclos (morph only)</li>
+<li>Fittt (morph only)</li>
+<li>Hmistag (morph only)</li>
+<li>JEC (morph only)</li>
+<li>JECM (morph only)</li>
+<li>JER (morph only)</li>
+<li>JERM (morph only)</li>
+<li>PDF (morph only)</li>
+<li>PU (morph only)</li>
+<li>Q2 (morph only)</li>
+<li>Tpt (morph only)</li>
+<li>Trig (morph only)</li>
+<li>lumi (rate only)</li>
+<li>topsf (rate only)</li>
+<li>ttbar_xsec (rate only)</li>
+</ul>
+
+</div>
+<h1 onclick=$('div2').toggle()>2. Rate Summary</h1><div class="inner" id="div2">
+<p>Rates for all observables and processes as given by the 'nominal' templates. If errors are given, they are MC stat. uncertainties.</p>
+<table cellpadding="2" border="1">
+<tr><th>process / observable</th><th>mthb_h1t1b1</th></tr>
+<tr><td>qcd</td><td>208.26 +/- 1.0668</td></tr>
+<tr><td>ttbar</td><td>71.202 +/- 1.8432</td></tr>
+<tr><td><b>total background</b></td><td>279.46 +/- 2.1297</td></tr>
+<tr><td>wp1500</td><td>23.005 +/- 0.39586</td></tr>
+<tr><td>wp2000</td><td>16.499 +/- 0.17116</td></tr>
+<tr><td>wp2500</td><td>7.4069 +/- 0.066213</td></tr>
+<tr><td>wp3000</td><td>2.6247 +/- 0.021948</td></tr>
+<tr><td>wp3500</td><td>0.90776 +/- 0.0073342</td></tr>
+<tr><td>wp4000</td><td>0.28626 +/- 0.0024537</td></tr>
+<tr><td><b>DATA</b></td><td>284</td></tr>
+</table>
+
+
+</div>
+<h1 onclick=$('div3').toggle()>3. Rate Impact of Systematic Uncertainties</h1><div class="inner" id="div3">
+<p>The table below summarises the impact of an nuisance parameter on the rate prediction of a process.</p>
+    <p>For a nuisance parameter, (gauss) indicates that this nuisance parameter has a gaussian prior, (gamma) that it has a gamma prior.</p>
+    <p>For the individual cells, (r) indicates the 'rate only' part of the uncertainty, (s) indicates the effect on the rate of an uncertainty
+    treated via template morphing (i.e., the <em>rate</em> effect of an uncertainty treated as part of the
+    template morphing; even if this is zero, the shape effect is still taken into account). Note that both effects are applied seperatly, so
+    the total rate change is about the linear sum of these two.<br/>
+    The rate change in 'plus' direction of the uncertainty is written as superscript,
+    the 'minus' direction as subscript.<br/>All numbers are in percent.</p>
+<h2>Observable 'mthb_h1t1b1'</h2>
+<table cellpadding="2" border="1">
+<tr><th>process / nuisance parameter</th><th>B (gauss)</th><th>Bmis (gauss)</th><th>Fit (gauss)</th><th>FitM (gauss)</th><th>Fitclos (gauss)</th><th>Fittt (gauss)</th><th>Hmistag (gauss)</th><th>Htag (gauss)</th><th>JEC (gauss)</th><th>JECM (gauss)</th><th>JER (gauss)</th><th>JERM (gauss)</th><th>PDF (gauss)</th><th>PDFsig (gauss)</th><th>PU (gauss)</th><th>Q2 (gauss)</th><th>Tpt (gauss)</th><th>Trig (gauss)</th><th>htagPH (gauss)</th><th>lumi (gauss)</th><th>topsf (gauss)</th><th>ttbar_xsec (gauss)</th></tr>
+<tr><td>qcd</td><td>---</td><td>---</td><td><sup>+6.13</sup><sub>-6.13</sub> (s) </td><td><sup>+0.00</sup><sub>+0.00</sub> (s) </td><td><sup>+20.30</sup><sub>-20.30</sub> (s) </td><td><sup>+9.42</sup><sub>-9.42</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+<tr><td>ttbar</td><td><sup>+1.06</sup><sub>-1.06</sub> (s) </td><td><sup>+4.46</sup><sub>-4.46</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td><sup>+5.28</sup><sub>-5.45</sub> (s) </td><td>---</td><td><sup>+2.47</sup><sub>-3.35</sub> (s) </td><td><sup>-1.01</sup><sub>-0.82</sub> (s) </td><td><sup>-0.53</sup><sub>-0.06</sub> (s) </td><td><sup>-2.12</sup><sub>+0.00</sub> (s) </td><td><sup>+6.77</sup><sub>-6.72</sub> (s) </td><td>---</td><td><sup>+2.38</sup><sub>-2.27</sub> (s) </td><td><sup>+40.49</sup><sub>-28.01</sub> (s) </td><td><sup>-20.98</sup><sub>+20.98</sub> (s) </td><td><sup>+0.34</sup><sub>-0.34</sub> (s) </td><td>---</td><td>&#xb1;2.50 (r)</td><td><sup>+10.00</sup><sub>-4.00</sub> (r) </td><td><sup>+5.50</sup><sub>-4.80</sub> (r) </td></tr>
+<tr><td>wp1500</td><td><sup>+1.58</sup><sub>-1.58</sub> (s) </td><td><sup>+0.14</sup><sub>-0.14</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td><sup>+0.49</sup><sub>-0.53</sub> (s) </td><td><sup>+4.84</sup><sub>-4.84</sub> (s) </td><td><sup>+1.68</sup><sub>-3.25</sub> (s) </td><td><sup>+2.49</sup><sub>-4.68</sub> (s) </td><td><sup>-0.26</sup><sub>-0.29</sub> (s) </td><td><sup>-11.60</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>-0.00</sup><sub>-0.00</sub> (s) </td><td><sup>+0.16</sup><sub>-0.23</sub> (s) </td><td><sup>+0.00</sup><sub>-0.00</sub> (s) </td><td>---</td><td><sup>+0.42</sup><sub>-0.42</sub> (s) </td><td>&#xb1;5.00 (r)</td><td>&#xb1;2.50 (r)</td><td><sup>+10.00</sup><sub>-4.00</sub> (r) </td><td>---</td></tr>
+<tr><td>wp2000</td><td><sup>+1.68</sup><sub>-1.68</sub> (s) </td><td><sup>+0.15</sup><sub>-0.15</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td><sup>+0.54</sup><sub>-0.55</sub> (s) </td><td><sup>+5.59</sup><sub>-5.59</sub> (s) </td><td><sup>+0.92</sup><sub>-1.00</sub> (s) </td><td><sup>+1.73</sup><sub>-2.78</sub> (s) </td><td><sup>-0.08</sup><sub>-0.09</sub> (s) </td><td><sup>-12.00</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.00</sup><sub>+0.00</sub> (s) </td><td><sup>+0.14</sup><sub>-0.10</sub> (s) </td><td><sup>-0.00</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.09</sup><sub>-0.09</sub> (s) </td><td>&#xb1;5.00 (r)</td><td>&#xb1;2.50 (r)</td><td><sup>+10.00</sup><sub>-4.00</sub> (r) </td><td>---</td></tr>
+<tr><td>wp2500</td><td><sup>+1.84</sup><sub>-1.84</sub> (s) </td><td><sup>+0.19</sup><sub>-0.19</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td><sup>+0.52</sup><sub>-0.47</sub> (s) </td><td><sup>+6.64</sup><sub>-6.64</sub> (s) </td><td><sup>+0.44</sup><sub>-0.78</sub> (s) </td><td><sup>+2.07</sup><sub>-2.70</sub> (s) </td><td><sup>-0.16</sup><sub>-0.07</sub> (s) </td><td><sup>-11.40</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.00</sup><sub>+0.02</sub> (s) </td><td><sup>+0.29</sup><sub>-0.30</sub> (s) </td><td><sup>-0.00</sup><sub>-0.00</sub> (s) </td><td>---</td><td><sup>+0.02</sup><sub>-0.02</sub> (s) </td><td>&#xb1;5.00 (r)</td><td>&#xb1;2.50 (r)</td><td><sup>+10.00</sup><sub>-4.00</sub> (r) </td><td>---</td></tr>
+<tr><td>wp3000</td><td><sup>+2.01</sup><sub>-2.01</sub> (s) </td><td><sup>+0.20</sup><sub>-0.20</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td><sup>+0.60</sup><sub>-0.48</sub> (s) </td><td><sup>+7.89</sup><sub>-7.89</sub> (s) </td><td><sup>+0.30</sup><sub>-0.39</sub> (s) </td><td><sup>+1.10</sup><sub>-2.99</sub> (s) </td><td><sup>-0.07</sup><sub>+0.05</sub> (s) </td><td><sup>-12.31</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.00</sup><sub>+0.00</sub> (s) </td><td><sup>+0.27</sup><sub>-0.31</sub> (s) </td><td><sup>+0.00</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.01</sup><sub>-0.01</sub> (s) </td><td>&#xb1;5.00 (r)</td><td>&#xb1;2.50 (r)</td><td><sup>+10.00</sup><sub>-4.00</sub> (r) </td><td>---</td></tr>
+<tr><td>wp3500</td><td><sup>+2.30</sup><sub>-2.30</sub> (s) </td><td><sup>+0.24</sup><sub>-0.24</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td><sup>+0.60</sup><sub>-0.44</sub> (s) </td><td><sup>+8.90</sup><sub>-8.90</sub> (s) </td><td><sup>+0.37</sup><sub>-0.34</sub> (s) </td><td><sup>+1.25</sup><sub>-3.07</sub> (s) </td><td><sup>-0.05</sup><sub>+0.05</sub> (s) </td><td><sup>-12.95</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.00</sup><sub>+0.03</sub> (s) </td><td><sup>+0.39</sup><sub>-0.39</sub> (s) </td><td><sup>+0.00</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.00</sup><sub>-0.00</sub> (s) </td><td>&#xb1;5.00 (r)</td><td>&#xb1;2.50 (r)</td><td><sup>+10.00</sup><sub>-4.00</sub> (r) </td><td>---</td></tr>
+<tr><td>wp4000</td><td><sup>+2.56</sup><sub>-2.56</sub> (s) </td><td><sup>+0.27</sup><sub>-0.27</sub> (s) </td><td>---</td><td>---</td><td>---</td><td>---</td><td><sup>+0.65</sup><sub>-0.46</sub> (s) </td><td><sup>+9.78</sup><sub>-9.78</sub> (s) </td><td><sup>+0.22</sup><sub>-0.25</sub> (s) </td><td><sup>+2.00</sup><sub>-2.65</sub> (s) </td><td><sup>-0.08</sup><sub>+0.02</sub> (s) </td><td><sup>-12.63</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>-0.00</sup><sub>+0.00</sub> (s) </td><td><sup>+0.61</sup><sub>-0.61</sub> (s) </td><td><sup>-0.00</sup><sub>+0.00</sub> (s) </td><td>---</td><td><sup>+0.00</sup><sub>-0.00</sub> (s) </td><td>&#xb1;5.00 (r)</td><td>&#xb1;2.50 (r)</td><td><sup>+10.00</sup><sub>-4.00</sub> (r) </td><td>---</td></tr>
+</table>
+
+
+</div>
+<h1 onclick=$('div4').toggle()>4. Nuisance Parameter Priors</h1><div class="inner" id="div4">
+
+    <p>The priors for the nuisance parameters are either Gaussian or gamma distributions. As limit cases, these can have with=0 or width=inf
+    which makes them delta or flat distributions, respectively.</p>
+    <div class="inner"><h3>Prior Parameters</h3>
+<table cellpadding="2" border="1">
+<tr><th>parameter</th><th>distribution type</th><th>distribution parameters</th></tr>
+<tr><td>Fittt</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>JER</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Q2</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>FitM</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Htag</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Bmis</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Fit</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>PU</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Fitclos</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>htagPH</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>topsf</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Hmistag</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>JECM</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>JERM</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>B</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>JEC</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Tpt</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>lumi</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>PDF</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>Trig</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>ttbar_xsec</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+<tr><td>PDFsig</td><td>gauss</td><td>width = 1.0; range = [-inf, inf]; mean = 0.0</td></tr>
+</table>
+
+</div>
+    </div>
+</div>
+<h1 onclick=$('div5').toggle()>5. Basic Model Plots</h1><div class="inner" id="div5">
+<h2>Stackplots</h2>
+<p>Everything normalized to expectation, i.e., to the normalization in the template input file, possibly scaled via the python script file.</p>
+<p>Color Code:</p><ul>
+<li><span style="background: #edd400;">&nbsp;&nbsp;&nbsp;</span> qcd</li>
+<li><span style="background: #f57900;">&nbsp;&nbsp;&nbsp;</span> ttbar</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> wp1500</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> wp2000</li>
+<li><span style="background: #a40000;">&nbsp;&nbsp;&nbsp;</span> wp2500</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> wp3000</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> wp3500</li>
+<li><span style="background: #a40000;">&nbsp;&nbsp;&nbsp;</span> wp4000</li>
+</ul>
+<p>Observable 'mthb_h1t1b1':<br /><img src="plots/mthb_h1t1b1_stack.png" /></p>
+<h2>All 'nominal' Templates</h2>
+<p>Everything normalized to expectation, i.e., to the normalization in the template input file, possibly scaled via the python script file.</p>
+<p>Observable "mthb_h1t1b1", Process "qcd":<br/><img src="plots/mthb_h1t1b1_qcd.png"/></p>
+<p>Observable "mthb_h1t1b1", Process "ttbar":<br/><img src="plots/mthb_h1t1b1_ttbar.png"/></p>
+<p>Observable "mthb_h1t1b1", Process "wp1500":<br/><img src="plots/mthb_h1t1b1_wp1500.png"/></p>
+<p>Observable "mthb_h1t1b1", Process "wp2000":<br/><img src="plots/mthb_h1t1b1_wp2000.png"/></p>
+<p>Observable "mthb_h1t1b1", Process "wp2500":<br/><img src="plots/mthb_h1t1b1_wp2500.png"/></p>
+<p>Observable "mthb_h1t1b1", Process "wp3000":<br/><img src="plots/mthb_h1t1b1_wp3000.png"/></p>
+<p>Observable "mthb_h1t1b1", Process "wp3500":<br/><img src="plots/mthb_h1t1b1_wp3500.png"/></p>
+<p>Observable "mthb_h1t1b1", Process "wp4000":<br/><img src="plots/mthb_h1t1b1_wp4000.png"/></p>
+<p>Observable "mthb_h1t1b1", all signals: <br/><img src="plots/mthb_h1t1b1_signals.png"/></p>
+<p>Observable "mthb_h1t1b1", signal normalization: <br/><img src="plots/mthb_h1t1b1_norm_vs_signals.png"/></p>
+<h2>Shape Uncertainty Plots</h2>
+<p>Color Code:</p><ul>
+<li><span style="background: #333333;">&nbsp;&nbsp;&nbsp;</span> nominal</li><li><span style="background: #aa3333;">&nbsp;&nbsp;&nbsp;</span> plus</li><li><span style="background: #3333aa;">&nbsp;&nbsp;&nbsp;</span> minus</li>
+</ul>
+<p>Processes not appearing in the tables do not have any shape uncertainty for this observable.</p>
+<p>Click on an image to enlarge. If you have javascript, the image will be displayed on this page and you can click through all shape uncertainties of that observable                    (instead of clicking, you can also use the left/right key on the keyboard).</p>
+<h3>Observable 'mthb_h1t1b1'</h3>
+<table cellpadding="2" border="1">
+<tr><th>process / uncertainty</th><th>B</th><th>Bmis</th><th>Fit</th><th>FitM</th><th>Fitclos</th><th>Fittt</th><th>Hmistag</th><th>Htag</th><th>JEC</th><th>JECM</th><th>JER</th><th>JERM</th><th>PDF</th><th>PDFsig</th><th>PU</th><th>Q2</th><th>Tpt</th><th>Trig</th></tr>
+<tr><td>qcd</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__qcd__Fit.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__qcd__Fit.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__qcd__FitM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__qcd__FitM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__qcd__Fitclos.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__qcd__Fitclos.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__qcd__Fittt.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__qcd__Fittt.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr>
+<tr><td>ttbar</td><td><a href="plots/mthb_h1t1b1__ttbar__B.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__B.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__Bmis.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__Bmis.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__ttbar__Hmistag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__Hmistag.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__ttbar__JEC.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__JEC.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__JECM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__JECM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__JER.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__JER.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__JERM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__JERM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__PDF.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__PDF.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__ttbar__PU.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__PU.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__Q2.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__Q2.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__Tpt.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__Tpt.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__ttbar__Trig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__ttbar__Trig.png" width="200"/></a></td></tr>
+<tr><td>wp1500</td><td><a href="plots/mthb_h1t1b1__wp1500__B.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__B.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__Bmis.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__Bmis.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__wp1500__Hmistag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__Hmistag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__Htag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__Htag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__JEC.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__JEC.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__JECM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__JECM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__JER.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__JER.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__JERM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__JERM.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp1500__PDFsig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__PDFsig.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__PU.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__PU.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp1500__Q2.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__Q2.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp1500__Trig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp1500__Trig.png" width="200"/></a></td></tr>
+<tr><td>wp2000</td><td><a href="plots/mthb_h1t1b1__wp2000__B.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__B.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__Bmis.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__Bmis.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__wp2000__Hmistag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__Hmistag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__Htag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__Htag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__JEC.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__JEC.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__JECM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__JECM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__JER.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__JER.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__JERM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__JERM.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp2000__PDFsig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__PDFsig.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__PU.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__PU.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2000__Q2.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__Q2.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp2000__Trig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2000__Trig.png" width="200"/></a></td></tr>
+<tr><td>wp2500</td><td><a href="plots/mthb_h1t1b1__wp2500__B.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__B.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__Bmis.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__Bmis.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__wp2500__Hmistag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__Hmistag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__Htag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__Htag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__JEC.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__JEC.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__JECM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__JECM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__JER.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__JER.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__JERM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__JERM.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp2500__PDFsig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__PDFsig.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__PU.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__PU.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp2500__Q2.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__Q2.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp2500__Trig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp2500__Trig.png" width="200"/></a></td></tr>
+<tr><td>wp3000</td><td><a href="plots/mthb_h1t1b1__wp3000__B.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__B.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__Bmis.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__Bmis.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__wp3000__Hmistag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__Hmistag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__Htag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__Htag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__JEC.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__JEC.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__JECM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__JECM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__JER.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__JER.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__JERM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__JERM.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp3000__PDFsig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__PDFsig.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__PU.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__PU.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3000__Q2.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__Q2.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp3000__Trig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3000__Trig.png" width="200"/></a></td></tr>
+<tr><td>wp3500</td><td><a href="plots/mthb_h1t1b1__wp3500__B.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__B.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__Bmis.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__Bmis.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__wp3500__Hmistag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__Hmistag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__Htag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__Htag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__JEC.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__JEC.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__JECM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__JECM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__JER.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__JER.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__JERM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__JERM.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp3500__PDFsig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__PDFsig.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__PU.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__PU.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp3500__Q2.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__Q2.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp3500__Trig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp3500__Trig.png" width="200"/></a></td></tr>
+<tr><td>wp4000</td><td><a href="plots/mthb_h1t1b1__wp4000__B.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__B.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__Bmis.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__Bmis.png" width="200"/></a></td><td>---</td><td>---</td><td>---</td><td>---</td><td><a href="plots/mthb_h1t1b1__wp4000__Hmistag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__Hmistag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__Htag.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__Htag.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__JEC.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__JEC.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__JECM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__JECM.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__JER.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__JER.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__JERM.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__JERM.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp4000__PDFsig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__PDFsig.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__PU.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__PU.png" width="200"/></a></td><td><a href="plots/mthb_h1t1b1__wp4000__Q2.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__Q2.png" width="200"/></a></td><td>---</td><td><a href="plots/mthb_h1t1b1__wp4000__Trig.png" rel="lightbox[mthb_h1t1b1]"><img src="plots/mthb_h1t1b1__wp4000__Trig.png" width="200"/></a></td></tr>
+</table>
+

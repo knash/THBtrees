@@ -1,0 +1,15 @@
+<p>Rates for all observables and processes as given by the 'nominal' templates. If errors are given, they are MC stat. uncertainties.</p>
+<table cellpadding="2" border="1">
+<tr><th>process / observable</th><th>mthb_h1t1b1</th></tr>
+<tr><td>qcd</td><td>208.26 +/- 1.0668</td></tr>
+<tr><td>ttbar</td><td>71.202 +/- 1.8432</td></tr>
+<tr><td><b>total background</b></td><td>279.46 +/- 2.1297</td></tr>
+<tr><td>wp1500</td><td>23.005 +/- 0.39586</td></tr>
+<tr><td>wp2000</td><td>16.499 +/- 0.17116</td></tr>
+<tr><td>wp2500</td><td>7.4069 +/- 0.066213</td></tr>
+<tr><td>wp3000</td><td>2.6247 +/- 0.021948</td></tr>
+<tr><td>wp3500</td><td>0.90776 +/- 0.0073342</td></tr>
+<tr><td>wp4000</td><td>0.28626 +/- 0.0024537</td></tr>
+<tr><td><b>DATA</b></td><td>284</td></tr>
+</table>
+

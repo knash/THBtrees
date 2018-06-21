@@ -1,0 +1,39 @@
+<p>Observables (xmin, xmax, nbins):</p>
+<ul>
+<li>mthb_h1t1b1 (500, 8000, 16)</li>
+</ul>
+<p>Background processes:</p>
+<ul>
+<li>qcd</li>
+<li>ttbar</li>
+</ul>
+<p>Signal processes:</p><ul>
+<li>wp1500</li>
+<li>wp2000</li>
+<li>wp2500</li>
+<li>wp3000</li>
+<li>wp3500</li>
+<li>wp4000</li>
+</ul>
+<p>Nuisance parameters (includes only those which apply to the background-only model):</p>
+<ul>
+<li>B (morph only)</li>
+<li>Bmis (morph only)</li>
+<li>Fit (morph only)</li>
+<li>FitM (morph only)</li>
+<li>Fitclos (morph only)</li>
+<li>Fittt (morph only)</li>
+<li>Hmistag (morph only)</li>
+<li>JEC (morph only)</li>
+<li>JECM (morph only)</li>
+<li>JER (morph only)</li>
+<li>JERM (morph only)</li>
+<li>PDF (morph only)</li>
+<li>PU (morph only)</li>
+<li>Q2 (morph only)</li>
+<li>Tpt (morph only)</li>
+<li>Trig (morph only)</li>
+<li>lumi (rate only)</li>
+<li>topsf (rate only)</li>
+<li>ttbar_xsec (rate only)</li>
+</ul>
